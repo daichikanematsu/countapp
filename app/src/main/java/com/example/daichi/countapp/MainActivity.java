@@ -21,12 +21,6 @@ public class MainActivity extends ActionBarActivity {
         textView=(TextView)findViewById(R.id.textView);
     }
 
-	
-
-    public static void ooo(View v){
-
-}
-
     public void plus(View v){
         a=a+1;
         textView.setText(a+"");
